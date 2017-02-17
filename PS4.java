@@ -10,6 +10,20 @@ import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.util.Random;
 
+
+/* This code is available at:
+*	https://github.com/pikawolfy/CSCI3104-Spring17
+*/
+
+/*	HOW TO RUN ME:
+*
+*	The histogram is displayed in the console, so the program
+*	should be compiled and executed as such.
+*
+*	javac PS4.java
+*	java PS4 [filename.txt]
+*/
+
 /*
 *   Script for Problem Set 4, problem 4.
 *
@@ -24,7 +38,6 @@ import java.util.Random;
 *	Prints a histogram to the console representing the distribution
 *	of table entries in the hash table.
 */
-
 public class PS4 {
 
 	static double[] bucket = new double[200];
